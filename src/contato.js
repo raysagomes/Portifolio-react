@@ -2,11 +2,15 @@ import React from "react";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Helmet } from 'react-helmet-async';
 
 
 export default function Contato() {
     return (
         <>
+    <Helmet>
+        <title>Contato</title>
+      </Helmet>
   <div className="body"> 
     <Header />
     <div className="div-card"> 

@@ -7,6 +7,8 @@ import Projetos from './Projetos';
 import Sobremim from './Sobre-mim';
 import Contato from './contato';
 import Habilidades from './Habilidades';
+import Organiza from './Organiza';
+import BS from './Bs';
 
 import './style.css';
 
@@ -23,6 +25,8 @@ function App() {
         <Route path="/Sobre-mim" element={<Sobremim />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/Habilidades" element={<Habilidades />} />
+        <Route path="/Organiza" element={<Organiza />} />
+        <Route path="/BS" element={<BS />} />
 
       </Routes>
     </Router>

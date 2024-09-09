@@ -5,10 +5,14 @@ import Footer from "./components/footer";
 import { Container, Col, Row } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from "./components/grid";
+import { HelmetProvider, Helmet } from 'react-helmet-async';
 
 function Home() {
     return (
         <>
+             <Helmet>
+        <title>ínicio</title>
+      </Helmet>
             <div className="body">
                 <Header />
                     <>

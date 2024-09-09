@@ -117,10 +117,17 @@
     justify-content: center;
     align-items: center;
     margin-top: 60px;
-    width: 40%;
+    width: 30%;
     padding: 20px;
     margin: auto;
     transition: width 0.3s ease;
+}
+.card-contact-projeto {
+    width: 30%;  
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .container2 {
@@ -129,6 +136,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    justify-self: center;
+    margin: 0 auto;
 }
 .list-group{
     width: auto;
@@ -137,6 +146,121 @@
 .div-card{
     margin-top: 60px;
     margin-bottom: 60px;
+}
+
+.container-habilidades{
+    color: white;
+    height: auto;
+    margin-top: 100px;
+    width: 100%;
+     padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}    
+    .container-da-habilidade {
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+        margin-bottom: 100px;
+    }
+.container-habilidades{
+    width: 100%;
+    padding: 0 15px; 
+}
+.container2{
+    justify-content: center;
+}
+.lista1 {
+    padding: 10px;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+#img-habilidade{
+    width: 100%;
+    background-color: white;
+    border-radius: 220px;
+    }
+.h1-inicial{
+    margin-top: 100px;
+}
+.list-group-item{
+    padding: 15px;
+}
+.fotos-projetos{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+}
+.fotos-projetos:hover{
+    transform: scale(1.5);
+}
+.href{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.link{
+margin-top: 40px;
+}
+.h3-projeto1{
+    margin-top: 35px;
+    margin-bottom: 55px;
+}
+.h3-projeto {
+    margin-top: 35px;
+    margin-bottom: 55px;
+}
+.nome-da-foto{ 
+    margin-bottom: 30px;
+}
+.container-testes{
+    margin-bottom: 90px;
+}
+.margin-bottom-{
+    margin-bottom: 70px;
+}
+
+
+.p-sobre-mim{
+    text-indent: 20px;
+    font-size:large;
+    color: white;    
+    text-align: center;
+    margin-top: 30px;
+    width: 80%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.sobre-mim{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 20px; 
+    box-sizing: border-box; 
+}
+.sobre-mim-h1{ 
+    text-align: center;
+    border-radius: 40px;
+    align-self: center;
+     color: white;    
+     margin-top: 30px;
+     margin-bottom: 30px;
+       width: 20%;
+    margin: 30 auto;
+     padding: 20px;
+     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5); 
+ }
+.imagem-shaking{
+    display: flex;
+    justify-content: flex-end;
 }
 
 @keyframes moveToLeft {
@@ -158,11 +282,27 @@
 }
 @media (max-width: 768px) {
     .card-contact {
-        width: 80%; /* Em telas pequenas, o card ocupará 80% da largura */
-    }
+        width: 80%; 
+        margin-top: 110px;   
+         margin-bottom:110px;
 
-    .list-group {
-        width: 100%; /* A lista continua ocupando 100% do card */
+    }
+    .card-contact-projeto {
+        width: 80%;
+    }
+    .fotos-projetos{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .sobre-mim-h1 {
+        width: 100%;
+    }
+.list-group {
+        width: 100%;
+}
+    .h1-inicial{ 
+        margin-bottom: 50px;
+        margin-top: 20px;
     }
 }
 
