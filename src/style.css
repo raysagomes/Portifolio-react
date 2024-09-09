@@ -1,0 +1,186 @@
+.body{
+    background-color: rgba(0, 0, 0, 0.756);
+}
+
+.header-topo {
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: auto;
+    justify-items: flex-end;
+}
+
+
+.texto-inicial {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px;
+}
+
+
+.fontcolorwhite {
+    color: white;
+}
+.imagem{
+    margin-top: 40px;
+    padding: 10px;
+    width: 100%;
+}
+.footer1{
+    background-color: rgb(55, 51, 51);
+    width: 100%;
+    padding: 40px;
+}
+.nav1{ 
+    display: flex;
+    flex-direction: column;
+}
+.legenda{
+    margin-top: 60px;
+    width: 100%;
+    color: white;
+    margin-right:5px;
+}
+.Button-header {
+    background-color: rgb(24, 28, 35);
+    border: 1px white solid;
+    border-radius: 20px 20px 20px 40px;
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 4px;
+    margin-right: 10px;
+}
+
+.sem-decoracao{
+    text-decoration: none;
+    color: black;
+}
+
+#h1-slide {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    animation: happyWave 0.5s ease-in-out 4;
+}
+
+#h2-slide {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 20px; 
+}
+.nav-link{
+    text-decoration: none;
+    align-self: flex-end;
+    color: white;
+    margin-right: 20px;
+}
+
+.Grid-Inicial{
+    display: grid;
+    width: 100%;
+    padding: 20px;
+      
+      
+}
+.col-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.col-card:hover .imagem-grid {
+    animation: moveToLeft 2s ease-in-out;
+    animation-delay: 1000ms;
+  }
+
+  .imagem-grid{
+  padding: 10px;
+  width: 80%
+  }
+
+
+.row {
+    justify-items: center;
+}
+
+.links{
+    color: black;
+}
+
+.card-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+    transition: width 0.3s ease;
+}
+
+.container2 {
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list-group{
+    width: auto;
+
+}
+.div-card{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+@keyframes moveToLeft {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(150px);
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+    }
+  }
+  
+@media (min-width: 768px) {
+    .legenda {
+        text-align: left;
+    }
+}
+@media (max-width: 768px) {
+    .card-contact {
+        width: 80%; /* Em telas pequenas, o card ocupará 80% da largura */
+    }
+
+    .list-group {
+        width: 100%; /* A lista continua ocupando 100% do card */
+    }
+}
+
+@keyframes happyWave {
+    0% {
+        transform: rotate(0deg); 
+    }
+    25% {
+        transform: rotate(5deg) translateY(-5px); 
+    }
+    50% {
+        transform: rotate(0deg) translateY(0px); 
+    }
+    75% {
+        transform: rotate(-5deg) translateY(5px); 
+    }
+    100% {
+        transform: rotate(0deg) translateY(0px); 
+    }
+}
+
